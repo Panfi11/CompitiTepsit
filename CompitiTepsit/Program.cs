@@ -29,7 +29,7 @@ namespace CompitiTepsit
             Console.WriteLine($"Il valore opposto a quello inserito è {value} e la somma tra il valore inserito e quello opposto è {somma}");
             long number = 55555;
             Console.WriteLine(Convert.ToString(number, 2)); //viene convertito in binario il valore "number"
-            short number1 = (short)number; //viene covertito il valore "number" da long a short 
+            short number1 = (short)number; //viene covertito il valore "number " da long a short 
             Console.WriteLine(number1); //viene trasformato in short
             Console.ReadLine();
         }
